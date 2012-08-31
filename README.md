@@ -419,7 +419,7 @@ runPipeline(tasks)
 Examples
 ========
 
-See ``//examples.py`` or the large unit test suite:
+See ``/examples.py`` or the large unit test suite:
 
 To run the test suite:
 
