@@ -24,7 +24,7 @@ Streams are lazy by default and consumer-driven. Data is only produced
 as a result of the entire pipeline being called with ``runPipeline()``.
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/pipe.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/pipe.png"/>
 </p>
 
 There is one composition operator which is defined for all
@@ -99,7 +99,7 @@ equivalent:
 ```
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/assoc.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/assoc.png"/>
 </p>
 
 And the identities have the usual properties.
@@ -109,7 +109,7 @@ a >> idP   =   idP >> a   =   a
 ```
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/id.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/id.png"/>
 </p>
 
 Pipes can be composed to form arbitrarily complex logic and can
@@ -295,13 +295,13 @@ parmap  :: (a -> b) -> (c -> d) -> ((a,b) ~> (c,d))
 ```
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/split.png"/>
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/unsplit.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/split.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/unsplit.png"/>
 </p>
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/dimap.png"/>
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/parmap.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/dimap.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/parmap.png"/>
 </p>
 
 Higher order "injection" operations. Which take single feeds and
@@ -313,8 +313,8 @@ second :: (() ~> a) -> (x ~> (x, a))
 ```
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/first.png"/>
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/second.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/first.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/second.png"/>
 </p>
 
 The IO operations which lift outside data sources into the
@@ -357,7 +357,7 @@ To construct this we introduce the higher order pipe ``par`` which maps
 flow into separate Processes.
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/par1.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/par1.png"/>
 </p>
 
 ```python
@@ -384,9 +384,9 @@ To move data in and out of  pipeline there are functions ``scatter``, ``gather``
 and ``gatherall`` which have similar functionality to their MPI equivelants.
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/scatter.png"/>
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/gather.png"/>
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/allgather.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/scatter.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/gather.png"/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/allgather.png"/>
 </p>
 
 This lets us build composite pipelines where portions of the pipeline run
