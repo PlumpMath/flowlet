@@ -35,7 +35,7 @@ a >> b
 ```
 
 <p align="center" style="padding: 20px">
-    <img src="http://raw.github.com/sdiehl/flowlet/master/img/comp.png "/>
+    <img src="https://raw.github.com/sdiehl/flowlet/master/img/comp.png "/>
 </p>
 
 And an identity Pipe which consists of a pair of mappings which map
